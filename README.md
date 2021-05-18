@@ -3,6 +3,6 @@
   Un système simple de particules
 
 ## Controles 
-   | ------ | ------ |
-   |Clic gauche| Générer des particules|
-   |Clic droit | Changer le type de particules (5 disponibles|
+| ------ | ------ |
+|Clic gauche| Générer des particules|
+|Clic droit | Changer le type de particules (5 disponibles)|
