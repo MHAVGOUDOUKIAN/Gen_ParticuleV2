@@ -5,5 +5,5 @@
 ## Controles 
 |Touche | Action|
 | ------ | ------ |
-|Clic gauche| Générer des particules|
-|Clic droit | Changer le type de particules (5 disponibles)|
+|Clic Gauche| Générer des particules|
+|Clic Droit | Changer le type de particules (5 disponibles)|
