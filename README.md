@@ -3,7 +3,8 @@
   Un système simple de particules
 
 ## Controles 
-|Touche | Action|
+|**Touche** | **Action**|
 | ------ | ------ |
-|Clic Gauche| Générer des particules|
-|Clic Droit | Changer le type de particules (5 disponibles)|
+|**Clic Gauche**| Générer des particules|
+|**Clic Droit** | Changer le type de particules (5 disponibles)|
+|**Echap**| Quitter le programme |
