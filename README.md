@@ -12,7 +12,7 @@
     C'est une version qui peut encore être optimisée.
 
     Créer et utiliser un générateur de particules dans un programme:
-         1 - Déclarer le générateur puis l'initialiser avec une position
+         1 - Déclarer le générateur puis l'initialiser avec une position : myGenerator = ParticuleGenerateur< type_de_ma_Particule > mon_Generateur;
          2 - Appeler la méthode update(deltaTime) à chaque frame pour mettre à jour le générateur et ses particules
          3 - Appeler la méthode draw() pour afficher les particules que contient le générateur
 
