@@ -39,7 +39,7 @@
          - update(), launch(), draw(), processPhysics() et processCollision().
      Vous pouvez ensuite directement utiliser cette nouvelle classe de particule dans le générateur;
 
-## Controles 
+## Contrôles 
 |**Touche** | **Action**|
 | ------ | ------ |
 |**Clic Gauche**| Générer des particules|
