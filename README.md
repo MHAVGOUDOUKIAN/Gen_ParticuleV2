@@ -17,13 +17,13 @@
          3 - Appeler la méthode draw() pour afficher les particules que contient le générateur
 
     NB: Le générateur doit se trouver dans une boucle pour fonctionner correctement; il prend en compte le temps écoulé
-    entre chaque frame
+    entre chaque frame.
     
   Fichier Particule.cpp/.hpp:
   
-     Dans ce fichier se trouve toutes les particules que le générateur va pouvoir générer
+     Dans ce fichier se trouve tous les types de particules que le générateur va pouvoir générer.
      Pour ce faire il suffit de choisir la particule que va devoir utiliser le générateur
-     lors de sa déclaration grâce à la généricité : ParticuleGenerateur< ma_Particule > mon_Generateur;
+     lors de sa déclaration grâce à la généricité : ParticuleGenerateur< type_de_ma_Particule > mon_Generateur;
 
      Chaque type de particule est en fait une instance d'une classe qui: 
          - dérive d'une classe virtuelle pure 'Particule'
@@ -33,7 +33,7 @@
      extérieur (autres objets, souris, écran, etc..); elles restent fidèles au comportement de base décrit
      dans leur classe d'origine.
 
-     Pour créer une nouvelle classe de particules, il faut au minimum la faire dériver de 'Particule' et redéfinir
+     Pour créer une nouvelle classe de particules, il faut au minimum la faire dériver de la classe abstraite 'Particule' et redéfinir
      les cinq méthodes virtuelles pures de celle-ci en fonction du comportement de la particule : 
          - update(), launch(), draw(), processPhysics() et processCollision().
      Vous pouvez ensuite directement utiliser cette nouvelle classe de particule dans le générateur;
