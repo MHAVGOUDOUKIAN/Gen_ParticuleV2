@@ -8,7 +8,7 @@
 
   Fichier ParticuleGenerator.hpp:
   
-    Contient la classe principale permettant de générer des particules à l'écran.
+    Contient la classe ParticuleGenerator permettant de générer des particules à l'écran.
     C'est une version qui peut encore être optimisée.
 
     Créer et utiliser un générateur de particules dans un programme:
