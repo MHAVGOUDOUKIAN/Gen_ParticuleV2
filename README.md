@@ -12,7 +12,8 @@
     C'est une version qui peut encore être optimisée.
 
     Créer et utiliser un générateur de particules dans un programme:
-         1 - Déclarer le générateur puis l'initialiser avec une position : myGenerator = ParticuleGenerateur< type_de_ma_Particule > mon_Generateur;
+         1 - Déclarer le générateur puis l'initialiser avec une position : 
+                      myGenerator = ParticuleGenerateur< type_de_ma_Particule > mon_Generateur;
          2 - Appeler la méthode update(deltaTime) à chaque frame pour mettre à jour le générateur et ses particules
          3 - Appeler la méthode draw() pour afficher les particules que contient le générateur
 
@@ -33,8 +34,8 @@
      extérieur (autres objets, souris, écran, etc..); elles restent fidèles au comportement de base décrit
      dans leur classe d'origine.
 
-     Pour créer une nouvelle classe de particules, il faut au minimum la faire dériver de la classe abstraite 'Particule' et redéfinir
-     les cinq méthodes virtuelles pures de celle-ci en fonction du comportement de la particule : 
+     Pour créer une nouvelle classe de particules, il faut au minimum la faire dériver de la classe abstraite 'Particule' 
+     et redéfinir les cinq méthodes virtuelles pures de celle-ci en fonction du comportement de la particule : 
          - update(), launch(), draw(), processPhysics() et processCollision().
      Vous pouvez ensuite directement utiliser cette nouvelle classe de particule dans le générateur;
 
