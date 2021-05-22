@@ -25,7 +25,7 @@
      Pour ce faire il suffit de choisir la particule que va devoir utiliser le générateur
      lors de sa déclaration grâce à la généricité : ParticuleGenerateur< type_de_ma_Particule > mon_Generateur;
 
-     Chaque type de particule est en fait une instance d'une classe qui: 
+     Chaque particule est en fait une instance d'une classe qui: 
          - dérive d'une classe virtuelle pure 'Particule'
          - décrit les caractéristiques et le comportement des particules
 
