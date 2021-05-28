@@ -45,3 +45,5 @@
 |**Clic Gauche**| Générer des particules|
 |**Clic Droit** | Changer le type de particules (5 disponibles)|
 |**Echap**| Quitter le programme |
+
+## Ce programme est encore en cours de développement
